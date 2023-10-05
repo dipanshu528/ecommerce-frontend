@@ -1,0 +1,31 @@
+.login{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000bf;
+  
+}
+
+.login h2{
+    margin: 10px 100px ;
+    position: relative;
+    top: 20px;
+}
+.login form{
+    margin-top: 50px;
+}
+.login input{
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.login button {
+    margin: 25px 95px;
+    width: 110px;
+}

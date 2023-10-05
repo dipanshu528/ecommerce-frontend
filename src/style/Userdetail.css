@@ -1,0 +1,42 @@
+
+.form{
+    margin-left: 10%;
+   
+}
+form h5{
+    
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.user{
+    margin: 18px ;
+}
+.user label{
+    width: 180px;
+}
+.form .btn{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80px;
+    height: 35px;
+    color: white;
+    background-color: rgb(47, 47, 49);
+}
+.form .btn:hover{
+    background-color: black;
+}
+
+.nottoken{
+ margin: 100px 30%;
+}
+.nottoken h3{
+    display: inline-block;
+}
+.nottoken p {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}

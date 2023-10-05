@@ -1,0 +1,32 @@
+.signup{
+    height: 330px;
+    width: 300px;
+    
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000bf;
+  
+}
+
+.signup h2{
+    margin: 10px 80px;
+    position: relative;
+    top: 15px;
+}
+.signup form{
+    margin-top: 40px;
+}
+.signup input{
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.signup button {
+    margin: 25px 95px;
+    width: 110px;
+}

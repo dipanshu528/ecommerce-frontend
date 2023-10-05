@@ -1,0 +1,97 @@
+.slide{
+    width: 100%;
+    height: 80vh;
+    /* position: absolute; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.158)); */
+}
+.slide img{
+width: 100%;
+height: 80vh;
+}
+.slide-detail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 340px;
+    padding-left: 5%;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.01) , rgba(0, 0, 0, 0.1));
+}
+.slide-detail h2{
+    font-size: 30px;
+}
+.slide-detail button{
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: #333;
+}
+.slide-detail button:hover{
+    background-color: #131313;
+}
+
+    @media only screen and (max-width: 800px) {
+        .slide{
+            height: 60vh;
+        }
+        .slide img{
+        height: 60vh;
+        }
+        .slide-detail{
+            padding-top: 270px;
+            padding-left: 5%;
+            height: 60vh;
+        }
+        .slide-detail h2{
+            font-size: 25px;
+        }
+        .slide-detail button{
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+
+
+    @media only screen and (max-width: 800px) {
+        .slide{
+            height: 50vh;
+        }
+        .slide img{
+        height: 50vh;
+        }
+        .slide-detail{
+            padding-top: 220px;
+            padding-left: 5%;
+            height: 50vh;
+        }
+        .slide-detail h2{
+            font-size: 20px;
+        }
+        .slide-detail button{
+            height: 30px;
+            margin-top: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .slide{
+            height: 40vh;
+        }
+        .slide img{
+        height: 40vh;
+        }
+        .slide-detail{
+            padding-top: 170px;
+            padding-left: 5%;
+           height: 40vh;
+        }
+        .slide-detail h2{
+            font-size: 17px;
+        }
+        .slide-detail button{
+            height: 25px;
+            margin-top: 10px;
+        }
+    }

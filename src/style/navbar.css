@@ -1,0 +1,126 @@
+.nav-container{
+    width: 100%;
+    height: 65px;
+    
+    position: fixed;
+    top: 0;
+    background-color: #2a2a2a;
+    z-index: 2;
+}
+.nav-container h2{
+    display: inline-block;
+    right: 10%;
+    margin-top: 10px;
+    margin-left: 5%;
+    color: white;
+}
+nav{
+    position: absolute;
+    right: 30px;
+top: 15px;  
+}
+nav ul , nav div{
+    display: flex;
+   
+    text-decoration: none;
+}
+nav li {    list-style: none;
+    padding: 2px 20px;
+}
+
+ a.active, nav li a:hover{
+    color: #707070;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.logout-btn{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.berger{
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 13px;
+ display: none;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px;
+}
+.cross{
+    position: absolute;
+cursor: pointer;
+right: 5%;
+top: 13px;
+    display: none; 
+}
+.cross i{
+    font-size: 30px;
+    color: white;
+}
+
+.menu-open{
+    display: block;
+}
+
+@media only screen and (max-width: 1000px ){
+
+    .nav-container {
+      margin: 0px;
+    }
+    .nav-container h2{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 850px ){
+ 
+    nav{
+        position: absolute;
+        top: 50px;
+        right: 2px;
+        height: 210px;
+        background-color: #000000d9;
+        border-radius: 5px;
+        display: none;
+    }
+    nav ul,nav div {
+        display: flex;
+        flex-direction: column;
+        right: 30px;
+        
+    }
+    nav li {    list-style: none;
+        padding: 5px 20px;
+    }
+      .cross{
+        display: block; 
+     } 
+    .berger{
+        display: block;
+    } 
+    
+     /* #navbar{
+        display: none;
+    }  */
+    .hidden{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 500px ){
+    nav{
+   
+        border-radius: 5px;
+    }
+    .berger{
+        right: 10px;
+    }
+}

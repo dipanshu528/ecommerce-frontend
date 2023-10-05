@@ -1,0 +1,286 @@
+
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin:  auto;
+    /* margin-top: 20px; */
+    width: 1250px;
+    }
+
+    .title h2{
+        text-align: center;
+    margin: 20px auto;
+    height: 50px;
+    position: relative;
+    line-height: 60px;
+    /* color: #555; */
+    }
+    .title::after{
+        content: '';
+        background: #555;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+    
+    .product-box{
+        width: 250px;
+        height: 365px;
+        margin: 30px 30px;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .product-detail{
+        width: 250px;
+        height: 130px;
+        background-color: #dbdbdb;
+        padding: 10px;
+        border-radius: 0 0 5px 5px;
+    }
+    .product-box img{
+        width: 160px;
+        height: 220px;
+        margin: 10px 40px;
+        transition: transform 0.3s ease;
+    }
+    .product-box img:hover {
+        transform: scale(1.1); /* Increase the scale factor for a larger hover effect */
+    }
+    .product-box h5{
+        width: 230px;
+        /* margin-top: 20px; */
+    
+    }
+    .product-box button{
+        height: 35px;
+        width: 150px;
+        color: white;
+        background-color: #2a2a2a;
+       
+        border: none;
+        border-radius: 5px;
+        /* margin-top: 10px; */
+        position: relative;
+        bottom: 160px;
+        left: 45px;
+        display: none;
+    }
+   
+    .product-box:hover button{
+        display: inline-block;
+    }
+    .product-box button:hover{
+        background-color: #100e0e;
+    }
+
+
+/* Alert */
+
+    .alert-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-popup{
+        width: 280px;
+        height: 100px;
+        background: #1b1a1a;
+        border-radius: 6px;
+        position: fixed;
+        top: 0;
+        left: 35%;
+        transform: scale(0.1);
+        text-align: center;
+        padding: 30px 5px;
+        color: white;
+          visibility: hidden;  
+         transition:  0.4s, top 0.4s;
+         
+    }
+     .product-pop-open{
+        visibility: visible;
+        top: 15%;
+        transform: scale(1);
+    } 
+    
+
+    @media only screen and (max-width: 1400px ){
+       
+        .product-container{
+           width: 1000px;
+            }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        
+        .product-container{
+           width: 650px;
+            }
+            
+           
+    }
+
+   
+     @media only screen and (max-width: 650px) {
+       
+.product-container{
+    margin:  auto;
+    margin-top: 40px;
+    width: 500px;
+    }
+    
+    .product-box{
+        width: 200px;
+        height: 300px;
+        margin: 20px;
+    }
+    .product-detail{
+        width: 200px;
+        height: 100px;
+        padding: 10px;
+    }
+    .product-box img{
+        width: 130px;
+        height: 170px;
+        margin: 20px 30px;
+    }
+    
+    .product-box h5{
+        width: 180px;
+        font-size: 14px;
+    }
+    .product-box button{
+        height: 35px;
+        width: 130px;
+        bottom: 140px;
+        left: 35px;
+    }
+   
+    .product-popup{
+        width: 230px;
+        height: 100px;
+        left: 30%;
+         
+    }
+
+    } 
+
+
+    @media only screen and (max-width: 500px) {
+             
+
+.product-container{
+    margin-top: 20px;
+    width: 300px;
+    }
+    
+    .product-box{
+        width: 250px;
+        height: 365px;
+        margin: 30px 30px;
+    }
+    .product-detail{
+        width: 250px;
+        height: 130px;
+      
+        padding: 10px;
+     
+    }
+    .product-box img{
+        width: 160px;
+        height: 220px;
+        margin: 10px 40px;
+       
+    }
+    
+    .product-box h5{
+        width: 230px;
+        /* margin-top: 20px; */
+    
+    }
+    .product-box button{
+        height: 35px;
+        width: 150px;
+       
+        position: relative;
+        bottom: 170px;
+        left: 45px;
+
+    }
+   
+    }
+
+    @media only screen and (max-width: 800px) {
+        .title::after{
+            
+            bottom: 270px;
+            }
+    }
+
+    @media only screen and (max-width: 400px) {
+        
+
+        .title::after{
+            
+            bottom: 340px;
+            }
+
+.product-container{
+    margin-top: 40px;
+    width: 220px;
+    }
+    
+    .product-box{
+        width: 240px;
+        height: 330px;
+        margin: 10px auto;
+        
+    }
+    .product-detail{
+        width: 240px;
+        height: 130px;
+       
+        padding: 5px;
+     
+    }
+    .product-box img{
+        width: 150px;
+        height: 190px;
+        margin: 10px 40px;
+      
+    }
+    
+    .product-box h5{
+        width: 220px;
+       
+    }
+    .product-box button{
+        height: 25px;
+        width: 110px;
+        color: white;
+        background-color: #2a2a2a;
+       
+        border: none;
+        border-radius: 5px;
+        /* margin-top: 10px; */
+        position: relative;
+       bottom: 35px;
+       left: 5px;
+        display: block;
+    }
+   
+    .product-popup{
+        width: 200px;
+        height: 100px;
+        left: 20%;
+         
+    }
+
+    }
